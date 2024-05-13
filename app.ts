@@ -24,19 +24,18 @@
     const fuerzaSuperman:strongHeroes = strongHeroes.superman;
     const fuerzaBatman : strongHeroes = strongHeroes.batman;
     const fuerzaAcuaman : strongHeroes = strongHeroes.acuaman;
-    
     // Retorno de funciones
-    function activar_batiseñal(){
+    function activar_batiseñal():string{
       return 'activada';
     }
   
-    function pedir_ayuda(){
+    function pedir_ayuda():void{
       console.log('Auxilio!!!');
     }
   
     // Aserciones de Tipo
     const poder: any = '100';
-    const largoDelPoder:number = poder.length;
+    const largoDelPoder:number = (poder as string).length;
     console.log( largoDelPoder );
   
   
