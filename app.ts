@@ -1,10 +1,45 @@
-(()=>{
-    const a = 10;
-    let b;
-    function sayHello(msg = 'Hola Mundo') {
-        console.log(msg);
-        return msg;
+(() => {
+
+    // Tipos
+    const batman:string = 'Bruce';
+    const superman:string = 'Clark';
+  
+    const existe:boolean = false;
+  
+    // Tuplas
+    const parejaHeroes:[string,string] = [batman,superman];
+    const villano:[string,number,boolean] = ['Lex Lutor',5,true];
+  
+    // Arreglos
+    const aliados :string[] = ['Mujer Maravilla','Acuaman','San', 'Flash'];
+  
+    //Enumeraciones
+    enum strongHeroes{
+      acuaman,
+      batman,
+      flash = 5,
+      superman = 100,
     }
-    let s = sayHello('hola MuNdo');
-    console.log(s.toUpperCase());
-    })()
+    const fuerzaFlash:strongHeroes = strongHeroes.flash;
+    const fuerzaSuperman:strongHeroes = strongHeroes.superman;
+    const fuerzaBatman : strongHeroes = strongHeroes.batman;
+    const fuerzaAcuaman : strongHeroes = strongHeroes.acuaman;
+    
+    // Retorno de funciones
+    function activar_batiseñal(){
+      return 'activada';
+    }
+  
+    function pedir_ayuda(){
+      console.log('Auxilio!!!');
+    }
+  
+    // Aserciones de Tipo
+    const poder: any = '100';
+    const largoDelPoder:number = poder.length;
+    console.log( largoDelPoder );
+  
+  
+  })()
+  
+  
