@@ -1,6 +1,6 @@
 (()=>{
    
-    const error = ( message: string ):never|number => {
+ const error = ( message: string ):never|number => {
        if(true){
         throw new Error (message)
        }
@@ -10,5 +10,5 @@
        error ('Auxilio!');
         console.log('Hola mundo');
   
-
+ 
      })()

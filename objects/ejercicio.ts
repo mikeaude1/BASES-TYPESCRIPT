@@ -1,3 +1,4 @@
+( () =>{
 type auto ={
     carroceria:string;
     modelo:string;
@@ -72,4 +73,4 @@ const batimovil:auto = {
   
   mystique = charles;
   mystique = apocalipsis;
-  
+})()
