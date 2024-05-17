@@ -1,3 +1,4 @@
+(()=>{
 // Funciones Básicas
 function sumar( a:number, b:number ):number{
     return a + b;
@@ -30,4 +31,4 @@ function sumar( a:number, b:number ):number{
   // Crear el tipo de funcion que acepte la funcion "noHaceNada"
   let noHaceNadaTampoco:( numero:number, texto:string, booleano:boolean, arreglo:string[] )=>void;
   noHaceNadaTampoco = noHaceNada
-  
+})
