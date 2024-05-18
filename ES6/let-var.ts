@@ -1,10 +1,14 @@
-( () =>{
+(() => {
 
-   
+    // console.log(a);
 
- console.log('let'<template tdLoading="loadingTemplateRef" tdLoadingType="circular" tdLoadingMode="determinate" tdLoadingStrategy="replace">
-     
- </template>);
-  
+    const nombre: string = 'Fernando'
+
+    const getName = (): void => {
+        console.log('viejo getName');
+    }
+
+    // getName = () => { console.log('Nuevo getName') };
+    // getName()
 
 })()
